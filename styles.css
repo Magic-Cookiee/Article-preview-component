@@ -63,7 +63,7 @@ p {
     justify-content: space-between;
 }
 
-.flex {
+.flexi {
     background-color: var(--Light-Grayish-Blue);
     display: flex;
     flex-direction: column;
@@ -141,13 +141,9 @@ p {
         border-radius: 0.8em 0.8em 0 0;
     }
 
-    .michelle {
-        top: 4px;
-        left: -64px;
-        position: relative;
-    }
+
     .person {
-        justify-content: end;
+        justify-content: space-between;
 
     }
 
@@ -164,15 +160,12 @@ p {
 
     .circle {
         z-index: 3;
-        width: 35px;
-        height: 35px;
-        position: relative;
-        bottom: -13px;
+
     }
 
-   .share-btn {
-    left: 26%;
-    top: 25%;
-    width: 49%;
-   }
+    .info {
+        left: 0;
+    }
+
+
 }
