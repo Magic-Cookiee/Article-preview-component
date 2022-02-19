@@ -58,12 +58,11 @@ p {
 
 .person {
     position: relative;
-
     display: flex;
     justify-content: space-between;
 }
 
-.flexi {
+.center {
     background-color: var(--Light-Grayish-Blue);
     display: flex;
     flex-direction: column;
@@ -74,6 +73,7 @@ p {
 
 .contrainer {
     max-width: 900px;
+    min-width: 800px;
     display: flex;
     background-color: white;
     border-radius: 0.8em;
@@ -125,10 +125,11 @@ p {
     }
 
     .contrainer {
-        margin-left: 40px;
+        margin-left: 4px;
+        margin-right: 4px;
         flex-wrap: wrap;
         max-width: 480px;
-
+        min-width: 320px;
     }
 
     .contrainer-2 {
@@ -142,19 +143,13 @@ p {
         border-radius: 0.8em 0.8em 0 0;
     }
 
-
-    .person {
-        justify-content: space-between;
-
-    }
-
     .active {
         border-radius: 0 0 0.875em 0.875em;
-        width: 410px;
+        width: 100%;
         position: absolute;
         left: 0%;
         bottom: 0%;
-        padding: 2.4em 8em 2.4em 0em;
+        padding: 2.4em 6em 2.4em 0em;
         z-index: 2;
         justify-content: space-evenly;
     }
@@ -166,7 +161,11 @@ p {
 
     .info {
         left: 0;
+        font-size: 1.1em;
     }
 
+    .michelle {
+        top: -2%;
+    }
 
 }
